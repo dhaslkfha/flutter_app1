@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final wordPair = WordPair.random();
-    return  MaterialApp(
+    return MaterialApp(
       title: 'Startup Name Generator',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
