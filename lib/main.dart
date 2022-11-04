@@ -4,6 +4,7 @@
 
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
+import 'package:github_page/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,16 +15,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final wordPair = WordPair.random();
     return MaterialApp(
-      title: 'Startup Name Generator',
+      title: 'Just for Fun!',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.white,
           foregroundColor: Colors.black,
         ),
       ),
-      home: const RandomWords(),
+      home: const HomePageWidget(),
       // home: Scaffold(
       //   appBar: AppBar(
       //     title: const Text('Welcome to Flutter'),
